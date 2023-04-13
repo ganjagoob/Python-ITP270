@@ -10,32 +10,21 @@ planet = int(input("Enter the planet number: "))
 if planet == 1:
     weight *= 0.91
     print("Your weight on Venus would be", weight)
-
+elif planet == 2:
+    weight *= 0.38
+    print("Your weight on Mars would be", weight)
+elif planet == 3:
+    weight *= 2.34
+    print("Your weight on Jupiter would be", weight)
+elif planet == 4:
+    weight *= 1.06
+    print("Your weight on Saturn would be", weight)
+elif planet == 5:
+    weight *= 0.92
+    print("Your weight on Uranus would be", weight)
+elif planet == 6:
+    weight *= 1.19
+    print("Your weight on Neptune would be", weight)
 else:
-    if planet == 2:
-        weight *= 0.38
-        print("Your weight on Mars would be", weight)
-
-    else:
-        if planet == 3:
-            weight *= 2.34
-            print("Your weight on Jupiter would be", weight)
-
-        else:
-            if planet == 4:
-                weight *= 1.06
-                print("Your weight on Saturn would be", weight)
-
-            else:
-                if planet == 5:
-                    weight *= 0.92
-                    print("Your weight on Uranus would be", weight)
-
-                else:
-                    if planet == 6:
-                        weight *= 1.19
-                        print("Your weight on Neptune would be", weight)
-
-                    else:
-                        print("Invalid planet number. Please enter a number between 1 and 6.")
+    print("Invalid planet number. Please enter a number between 1 and 6.")
 
